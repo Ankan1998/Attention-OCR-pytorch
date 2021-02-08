@@ -1,0 +1,29 @@
+{
+
+  "img_width" : 160,
+  "img_height" : 60,
+  "max_len" : 5,
+  "nh" : 512,
+  "teacher_forcing_ratio" : 0.5,
+  "train_batch_size" : 64,
+  "val_batch_size" : 16,
+  "lr" : 3e-4,
+  "n_epoch" : 10,
+  "n_works" : 1,
+  "device" : "cpu",
+  "train_dir" : "./sample",
+  "train_file" : "train.txt",
+  "val_dir" : "./sample",
+  "val_file" : "val.txt",
+  "cnn_option": 1,
+  "cnn_backbone_model" : {
+                          "1" : ["inceptionv3", "./inception_v3_google-1a9a5a14.pth"],
+                          "2" : ["inception_resnetV2", "./inceptionresnetv2-520b38e4.pth"]
+                          },
+  "chk_point_dir" : "./chkpoint",
+  "best_mod_dir" : "./best_model",
+  "chars" : "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "data_file_separator" : ",",
+  "resume_training" : 0
+
+}
