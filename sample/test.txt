@@ -1,0 +1,4 @@
+1.jpg,stop
+2.jpg,stop
+3.jpg,stop
+4.jpg,stop
