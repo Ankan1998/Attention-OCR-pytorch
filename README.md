@@ -11,7 +11,7 @@ Using Attention to improve performance of OCR
 
 #### CITATION
 This work is based on paper
-Attention-based Extraction of Structured Information from Street View Imagery
+Attention-based Extraction of Structured Information from Street View Imagery <br>
 Zbigniew Wojna∗ Alex Gorban† Dar-Shyang Lee† Kevin Murphy† Qian Yu† Yeqing Li† Julian Ibarz†
 ∗ University College London † Google Inc.
 
