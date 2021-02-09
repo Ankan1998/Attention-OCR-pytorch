@@ -1,0 +1,20 @@
+{
+
+  "img_width" : 160,
+  "img_height" : 60,
+  "max_len" : 4,
+  "nh" : 512,
+  "device" : "cpu",
+  "test_dir" : "C:/Users/Ankan/Desktop/pytorch_aocr/main_dir",
+  "inference_file" : "test.txt",
+  "cnn_option": 2,
+  "cnn_backbone_model" : {
+                          "1" : "inceptionv3",
+                          "2" : "inception_resnetV2"
+                          },
+  "model_path" : "./best_model/best_model.pth",
+  "chars" : "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "data_file_separator" : ",",
+  "res_output" : "./res_output"
+
+}
