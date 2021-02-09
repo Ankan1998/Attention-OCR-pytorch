@@ -3,8 +3,8 @@ Using Attention to improve performance of OCR
 
 ### Steps to run with custom dataset
 1. Check sample directory for data format structure
-2. Download inceptionv3, or inception_resnet_v2 weights
- inceptionv3 : 'https://download.pytorch.org/models/inception_v3_google-1a9a5a14.pth'
+2. Download inceptionv3, or inception_resnet_v2 weights<br>
+ inceptionv3 : 'https://download.pytorch.org/models/inception_v3_google-1a9a5a14.pth' <br>
  inception_resnet_v2 : 'http://data.lip6.fr/cadene/pretrainedmodels/inceptionresnetv2-520b38e4.pth'
 3. Configure train config file
 4. Run train.py after configuring config file
