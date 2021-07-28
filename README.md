@@ -1,4 +1,4 @@
-# Attention-OCR-pytorch
+# <p align="center">Attention-OCR-pytorch</p>
 Using Attention to improve performance of OCR
 
 ### Steps to run with custom dataset
